@@ -3,7 +3,7 @@
 This extension will assist you creating spirograph plots in [Inkscape](https://inkscape.org/).
 
 
-<img src="docs/images/Examples.png" width="800px"/>
+<img src="docs/images/Examples.png" width="600px"/>
 
 ## Main features
 The main features of this extension are
@@ -84,13 +84,13 @@ Epicycloid | Hypocycloid
 - | - 
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/EpitrochoidOn3-generation.gif" alt="drawing" width="300"/> | <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Astroid2.gif" alt="drawing" width="300"/>
 
-The equations that describe the curves are presented in the figure below. They can be written in terms of complex numbers ( *x=Re(z)* and *y=Im(z)* )
+The equations that describe the curves are presented in the figure below. They are written in terms of a complex variable ( *x=Re(z)* and *y=Im(z)* )
 
 <img src="docs/images/Epi_Hypotrochoid_equations.png" width="800px"/>
 
 <img src="docs/images/Epi_Hypocycloid_equations.png" width="800px"/>
 
-In order to close the curve (if possible), it is necessary *N=lcm(r,R)/R* turns over the circle *R*, give by
+In order to close the curve (if possible), it is necessary *N* turns over the circle *R*, given by
 
 <img src="https://render.githubusercontent.com/render/math?math=N=\frac{lcm(r,R)}{R}" width="200px">
 
@@ -116,7 +116,7 @@ where *lcm(r,R)* is the [least common multiple](https://en.wikipedia.org/wiki/Le
 
 *Detail level:* Defines the number of points used to trace the curve.
 
-<img src="docs/images/detailLevel.png" height="400px"/>
+<img src="docs/images/detailLevel.png" height="250px"/>
 
 **Draw base circles:** Add the two circles in the initial position. See figure above.
 
