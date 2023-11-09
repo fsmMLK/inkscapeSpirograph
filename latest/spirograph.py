@@ -204,7 +204,7 @@ class Spirograph(inkBase.inkscapeMadeEasy):
 
     # typeCurve: 'hypo', 'epi'
     def calcCurve__trochoid(self, typeCurve, R, r, d, thetas):
-        j = np.complex(0, 1)
+        j = complex(0, 1)
         if typeCurve.lower() == 'hypo':
             # https://www.mathcurve.com/courbes2d.gb/hypotrochoid/hypotrochoid.shtml
             P_complex = (R - r) * np.exp(j * thetas) + d * np.exp(-j * thetas * (R - r) / r)
